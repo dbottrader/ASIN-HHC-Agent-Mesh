@@ -1,0 +1,22 @@
+{
+ "agents": [
+  {
+   "id": "agent_44a891f04c55",
+   "name": "ace-muse",
+   "model": "muse-spark",
+   "role": "orchestrator",
+   "last_heartbeat": 1792079468.9679663,
+   "status": "active",
+   "created": 1792079468.9679656
+  },
+  {
+   "id": "agent_31764e4d49ba",
+   "name": "ace-ops",
+   "model": "muse-spark",
+   "role": "mesh operator",
+   "last_heartbeat": 1792079913.0257654,
+   "status": "active",
+   "created": 1792079913.0257633
+  }
+ ]
+}
