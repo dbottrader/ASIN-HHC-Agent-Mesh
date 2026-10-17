@@ -3,29 +3,50 @@
   {
    "id": "agent_44a891f04c55",
    "name": "ace-muse",
+   "display_name": null,
    "model": "muse-spark",
    "role": "orchestrator",
+   "pubkey": "",
+   "created": 1792079468.9679656,
    "last_heartbeat": 1792079468.9679663,
    "status": "active",
-   "created": 1792079468.9679656
+   "computed_status": "active"
   },
   {
    "id": "agent_31764e4d49ba",
    "name": "ace-ops",
+   "display_name": null,
    "model": "muse-spark",
    "role": "mesh operator",
+   "pubkey": "",
+   "created": 1792079913.0257633,
    "last_heartbeat": 1792079913.0257654,
    "status": "active",
-   "created": 1792079913.0257633
+   "computed_status": "active"
   },
   {
    "id": "agent_6e4686a8057d",
    "name": "grok-xai",
+   "display_name": null,
    "model": "grok-4",
    "role": "technical-accuracy + adversarial review",
+   "pubkey": "",
+   "created": 1792080498.2244213,
    "last_heartbeat": 1792080498.2244227,
    "status": "active",
-   "created": 1792080498.2244213
+   "computed_status": "active"
+  },
+  {
+   "id": "agent_1cdce06f0227",
+   "name": "ace-deploy-verify",
+   "display_name": "ace-deploy-verify#0a0d9f69",
+   "model": "probe",
+   "role": "deploy-verification",
+   "pubkey": "7b4d8e8e38910858b4d74090284eacebde7ffe7fbe295ff83b6553e9f0831ff5",
+   "created": 1792252251.8239331,
+   "last_heartbeat": 1792252251.9941926,
+   "status": "active",
+   "computed_status": "active"
   }
  ]
 }
