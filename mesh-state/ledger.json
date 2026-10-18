@@ -389,6 +389,86 @@
    "prev_hash": "893a387f60c792222a6053b20a3ce01c11f706751f668af49afdf2c72ef7fc9f",
    "hash": "157e491ba1427934389f06492b03f1b81cf8372a929ebc3fdbcd6e16ff5fab50",
    "canon": "v1"
+  },
+  {
+   "seq": 40,
+   "ts": 1792356835.684537,
+   "actor": "agent_ec94866955fe",
+   "kind": "agent_register_pending",
+   "payload": "{\"name\": \"meme-scanner-paper-run1\"}",
+   "prev_hash": "157e491ba1427934389f06492b03f1b81cf8372a929ebc3fdbcd6e16ff5fab50",
+   "hash": "bfcaa686e523ffd53a5c3312282233923b4fe293f6677633e6dbbe7174661f35",
+   "canon": "v1"
+  },
+  {
+   "seq": 41,
+   "ts": 1792356835.7408235,
+   "actor": "agent_ec94866955fe",
+   "kind": "agent_registered",
+   "payload": "{\"display_name\": \"meme-scanner-paper-run1#c498af1b\"}",
+   "prev_hash": "bfcaa686e523ffd53a5c3312282233923b4fe293f6677633e6dbbe7174661f35",
+   "hash": "005d3960a9ccf01ce30bc60dde5e75b4d87aa34fa6c772cd02185e036ca959bc",
+   "canon": "v1"
+  },
+  {
+   "seq": 42,
+   "ts": 1792356835.8392782,
+   "actor": "agent_ec94866955fe",
+   "kind": "paper_experiment_capability",
+   "payload": "{\"data_sources\": [\"dexscreener public api (free, no key): pairs, liquidity, volume, txns\", \"rugcheck public api (free, no key): lp-lock pct, holder concentration, risks\"], \"filters\": {\"dev_max_pct\": 10, \"liquidity_floor_usd\": 25000, \"lp_locked_min_pct\": 95}, \"mode\": \"PAPER ONLY \\u2014 no real wallet, no private keys, no swaps, no mainnet\", \"node\": \"agent_ec94866955fe\", \"note\": \"PAPER-TEST capability manifest. Whale-wallet-level tracing is HOLD (no free keyless source). Short-window paper session; not a 24h replication.\", \"schema\": \"cp8.paper_experiment.capability.v0\"}",
+   "prev_hash": "005d3960a9ccf01ce30bc60dde5e75b4d87aa34fa6c772cd02185e036ca959bc",
+   "hash": "0b15a948cf675a28a929eaa0655a516df0e6457865ad448b0c28f91460e697ae",
+   "canon": "v1"
+  },
+  {
+   "seq": 43,
+   "ts": 1792356835.9354794,
+   "actor": "agent_ec94866955fe",
+   "kind": "work_publish",
+   "payload": "{\"kind\": \"task\", \"work_id\": \"work_492a19dd2043\"}",
+   "prev_hash": "0b15a948cf675a28a929eaa0655a516df0e6457865ad448b0c28f91460e697ae",
+   "hash": "609bbf009f26e68b6525965884d82daa22afd63eb8293c0d2368268737aa4257",
+   "canon": "v1"
+  },
+  {
+   "seq": 44,
+   "ts": 1792356836.0623996,
+   "actor": "agent_ec94866955fe",
+   "kind": "work_claim",
+   "payload": "{\"expires\": 1792443236.0617557, \"work_id\": \"work_492a19dd2043\"}",
+   "prev_hash": "609bbf009f26e68b6525965884d82daa22afd63eb8293c0d2368268737aa4257",
+   "hash": "c6b07ffca42d741a9ba47da3e6fd2f6b65a5c5480412180edd7810d8405b114a",
+   "canon": "v1"
+  },
+  {
+   "seq": 45,
+   "ts": 1792357737.5384378,
+   "actor": "agent_ec94866955fe",
+   "kind": "paper_experiment_summary",
+   "payload": "{\"capability_receipt\": \"0b15a948cf675a28a929eaa0655a516df0e6457865ad448b0c28f91460e697ae\", \"exits\": 1, \"final_equity_usd\": 63.95, \"holds\": [\"whale-wallet-level tracing: no free keyless source (flow proxy used)\", \"short-window paper session, not a 24h replication\", \"scanner surface = dexscreener free discovery (not exhaustive)\", \"no real chain, wallet, or funds at any point\"], \"losses\": 1, \"mode\": \"paper_only\", \"pairs_scanned\": 28, \"paper_pnl_usd\": -0.05, \"round_trips\": 1, \"schema\": \"cp8.paper_experiment.result.v0\", \"session_receipt\": \"70d32a93cd2b69e0c6300d2507034f04e92f42c16b1673bbb888d50a086edbc2\", \"skip_reasons\": {\"dev_concentration_too_high\": 2, \"liquidity_below_floor\": 25}, \"start_equity_usd\": 64.0, \"tag\": \"run1\", \"task_log_file\": \"task-log-run1.jsonl\", \"task_log_hash\": \"bacb131031e20293861d523dea5575e000fbc3c4ad2185e51183f62c67339be8\", \"task_to_trade_ratio\": 130.0, \"tasks_total\": 130, \"trades_taken\": 1, \"wins\": 0}",
+   "prev_hash": "c6b07ffca42d741a9ba47da3e6fd2f6b65a5c5480412180edd7810d8405b114a",
+   "hash": "438de3e9f36ee9e0765b2d345ed8da933ef3730a8e76847b8753595e5eace9c3",
+   "canon": "v1"
+  },
+  {
+   "seq": 46,
+   "ts": 1792357737.63513,
+   "actor": "agent_ec94866955fe",
+   "kind": "powp_award",
+   "payload": "{\"amount\": 10.0, \"kind\": \"complete\", \"receipt\": \"0fe7e7feb44e71a874b5b3d63e7e9f3c915b7834c5e8c0e3d73d842e24f570b2\", \"work_id\": \"work_492a19dd2043\"}",
+   "prev_hash": "438de3e9f36ee9e0765b2d345ed8da933ef3730a8e76847b8753595e5eace9c3",
+   "hash": "6993f2bbea4c6ab257691dbe894f7048f87f479b10d83b6b83e45e4100e08d30",
+   "canon": "v1"
+  },
+  {
+   "seq": 47,
+   "ts": 1792357737.6352818,
+   "actor": "agent_ec94866955fe",
+   "kind": "work_complete",
+   "payload": "{\"receipt\": \"0fe7e7feb44e71a874b5b3d63e7e9f3c915b7834c5e8c0e3d73d842e24f570b2\", \"work_id\": \"work_492a19dd2043\"}",
+   "prev_hash": "6993f2bbea4c6ab257691dbe894f7048f87f479b10d83b6b83e45e4100e08d30",
+   "hash": "e6b0703230c054c7c16a99e2827a1a63d014ef1fbdccec458b45be6ac24612c6",
+   "canon": "v1"
   }
  ],
  "canon": "v1"
