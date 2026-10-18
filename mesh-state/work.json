@@ -1,6 +1,22 @@
 {
  "work": [
   {
+   "id": "work_492a19dd2043",
+   "kind": "task",
+   "title": "[PAPER-TEST] meme-scanner paper session run1",
+   "body": "{\"config\":{\"dev_max_pct\":10,\"liquidity_floor\":25000,\"lp_locked_min_pct\":95,\"max_minutes\":15.0,\"max_pairs\":50,\"max_positions\":8,\"passes\":3,\"risk_pct\":0.06,\"sl\":0.2,\"start_equity\":64.0,\"tp\":0.3},\"mode\":\"paper_only\",\"started\":1792356835.8891463}",
+   "author": "agent_ec94866955fe",
+   "status": "COMPLETE",
+   "claim": "agent_ec94866955fe",
+   "created": 1792356835.934774,
+   "updated": 1792357737.631794,
+   "version": 1,
+   "supersedes": null,
+   "evidence": "[]",
+   "claim_expires": 1792443236.0617557,
+   "superseded_by": null
+  },
+  {
    "id": "work_f84a5f7e71fe",
    "kind": "task",
    "title": "[PROTO-TEST] gpu_compute demo: deterministic inference batch",
