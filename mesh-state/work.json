@@ -1,6 +1,38 @@
 {
  "work": [
   {
+   "id": "work_f84a5f7e71fe",
+   "kind": "task",
+   "title": "[PROTO-TEST] gpu_compute demo: deterministic inference batch",
+   "body": "{\"inputs\":[{\"input_id\":\"in-0\",\"text\":\"the quick brown fox jumps over the lazy dog\"},{\"input_id\":\"in-1\",\"text\":\"agent mesh proof of useful work prototype\"},{\"input_id\":\"in-2\",\"text\":\"old eth mining rigs fired back up for ai\"},{\"input_id\":\"in-3\",\"text\":\"deterministic replay is the cheapest verifier\"}],\"kind\":\"inference_batch\",\"max_cost_units\":10,\"model\":{\"id\":\"proto-deterministic-v1\",\"runtime\":\"proto-cpu\",\"weight_hash\":\"8d3288d8d4824eb3c04497c8f559b175e1f9b172c7d24df178d9f9314422acdc\"},\"note\":\"PROTO-TEST: deterministic CPU stand-in for GPU inference; verification is by exact replay. Real-GPU comparison policy HOLD.\",\"output_contract\":{\"comparison\":\"exact_token_match\"},\"params\":{\"decoding\":\"greedy\",\"max_tokens\":16,\"seed\":7,\"vocab\":32000},\"params_hash\":\"d2f8e1cadf297fbe401d596644528665b72c13a17b619402a0088292eb8f3ccc\",\"schema\":\"cp8.gpu_task.v0\",\"spec_hash\":\"1e574982ec3b77e369c3403f92735f820bd32e9346399811e976dae243e9bad0\"}",
+   "author": "agent_a06b694d91de",
+   "status": "COMPLETE",
+   "claim": "agent_a06b694d91de",
+   "created": 1792308571.5596957,
+   "updated": 1792308572.2027025,
+   "version": 1,
+   "supersedes": null,
+   "evidence": "[]",
+   "claim_expires": 1792394971.7095208,
+   "superseded_by": null
+  },
+  {
+   "id": "work_8ee7f2200f95",
+   "kind": "task",
+   "title": "[PROTO-TEST] gpu_compute demo: deterministic inference batch",
+   "body": "{\"inputs\":[{\"input_id\":\"in-0\",\"text\":\"the quick brown fox jumps over the lazy dog\"},{\"input_id\":\"in-1\",\"text\":\"agent mesh proof of useful work prototype\"},{\"input_id\":\"in-2\",\"text\":\"old eth mining rigs fired back up for ai\"},{\"input_id\":\"in-3\",\"text\":\"deterministic replay is the cheapest verifier\"}],\"kind\":\"inference_batch\",\"max_cost_units\":10,\"model\":{\"id\":\"proto-deterministic-v1\",\"runtime\":\"proto-cpu\",\"weight_hash\":\"8d3288d8d4824eb3c04497c8f559b175e1f9b172c7d24df178d9f9314422acdc\"},\"note\":\"PROTO-TEST: deterministic CPU stand-in for GPU inference; verification is by exact replay. Real-GPU comparison policy HOLD.\",\"output_contract\":{\"comparison\":\"exact_token_match\"},\"params\":{\"decoding\":\"greedy\",\"max_tokens\":16,\"seed\":7,\"vocab\":32000},\"params_hash\":\"d2f8e1cadf297fbe401d596644528665b72c13a17b619402a0088292eb8f3ccc\",\"schema\":\"cp8.gpu_task.v0\",\"spec_hash\":\"1e574982ec3b77e369c3403f92735f820bd32e9346399811e976dae243e9bad0\"}",
+   "author": "agent_e7e32c7d1ceb",
+   "status": "COMPLETE",
+   "claim": "agent_e7e32c7d1ceb",
+   "created": 1792308538.486931,
+   "updated": 1792308539.0947487,
+   "version": 1,
+   "supersedes": null,
+   "evidence": "[]",
+   "claim_expires": 1792394938.6372397,
+   "superseded_by": null
+  },
+  {
    "id": "work_c8159410ec79",
    "kind": "review-request",
    "title": "Adversarial review: gate-replay receipts (10/10)",
