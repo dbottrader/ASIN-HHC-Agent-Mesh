@@ -95,6 +95,18 @@
    "last_heartbeat": 1792308571.939993,
    "status": "active",
    "computed_status": "active"
+  },
+  {
+   "id": "agent_ec94866955fe",
+   "name": "meme-scanner-paper-run1",
+   "display_name": "meme-scanner-paper-run1#c498af1b",
+   "model": "paper-memecoin-scanner|paper_only|no_chain_access",
+   "role": "paper_experiment",
+   "pubkey": "pk-6a7770990a0a4149b2036b99765686d4",
+   "created": 1792356835.6837037,
+   "last_heartbeat": 1792356835.7398686,
+   "status": "active",
+   "computed_status": "active"
   }
  ]
 }
