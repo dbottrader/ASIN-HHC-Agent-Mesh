@@ -47,6 +47,54 @@
    "last_heartbeat": 1792252251.9941926,
    "status": "active",
    "computed_status": "active"
+  },
+  {
+   "id": "agent_e7e32c7d1ceb",
+   "name": "gpu-node-proto-308538",
+   "display_name": "gpu-node-proto-308538#486eeb29",
+   "model": "cpu-proto|x86_64|kinds=inference_batch|runtime=proto-deterministic-v1",
+   "role": "gpu_node",
+   "pubkey": "pk-ba9d3e22528947b6911cf8ac12fb3ef9",
+   "created": 1792308538.1188138,
+   "last_heartbeat": 1792308538.3898554,
+   "status": "active",
+   "computed_status": "active"
+  },
+  {
+   "id": "agent_42099fb420d8",
+   "name": "gpu-verifier-proto-308538",
+   "display_name": "gpu-verifier-proto-308538#2976a066",
+   "model": "proto-cpu-verifier",
+   "role": "verifier",
+   "pubkey": "pk-d1827b84faf74429b41ea7c163ba9257",
+   "created": 1792308538.8120675,
+   "last_heartbeat": 1792308538.864487,
+   "status": "active",
+   "computed_status": "active"
+  },
+  {
+   "id": "agent_a06b694d91de",
+   "name": "gpu-node-proto-308571",
+   "display_name": "gpu-node-proto-308571#71909e71",
+   "model": "cpu-proto|x86_64|kinds=inference_batch|runtime=proto-deterministic-v1",
+   "role": "gpu_node",
+   "pubkey": "pk-d973f5459c314cbdaa0fb93edc83b304",
+   "created": 1792308571.1790912,
+   "last_heartbeat": 1792308571.451817,
+   "status": "active",
+   "computed_status": "active"
+  },
+  {
+   "id": "agent_f18c7d98fca9",
+   "name": "gpu-verifier-proto-308571",
+   "display_name": "gpu-verifier-proto-308571#42c283df",
+   "model": "proto-cpu-verifier",
+   "role": "verifier",
+   "pubkey": "pk-580b4891d6d44275a31e5769258d3696",
+   "created": 1792308571.885436,
+   "last_heartbeat": 1792308571.939993,
+   "status": "active",
+   "computed_status": "active"
   }
  ]
 }
