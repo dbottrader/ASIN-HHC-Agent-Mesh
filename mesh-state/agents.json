@@ -107,6 +107,42 @@
    "last_heartbeat": 1792356835.7398686,
    "status": "active",
    "computed_status": "active"
+  },
+  {
+   "id": "agent_3ba856271a38",
+   "name": "ace-revenue-engine",
+   "display_name": "ace-revenue-engine#6e13ebd5",
+   "model": "muse-spark",
+   "role": "revenue_exec",
+   "pubkey": "pk-1889d06fdbf94d34a443929b1ca4b685",
+   "created": 1792363599.8517306,
+   "last_heartbeat": 1792363599.9044278,
+   "status": "active",
+   "computed_status": "active"
+  },
+  {
+   "id": "agent_168e7d4f7e5c",
+   "name": "ace-revenue-engine-00b84c",
+   "display_name": "ace-revenue-engine-00b84c#65f2eb97",
+   "model": "muse-spark",
+   "role": "revenue_exec",
+   "pubkey": "pk-49f807bd949a4ba28ec762bb238a901b",
+   "created": 1792363612.8805459,
+   "last_heartbeat": 1792363612.9594865,
+   "status": "active",
+   "computed_status": "active"
+  },
+  {
+   "id": "agent_b58cbfdcb807",
+   "name": "ace-revenue-engine-ffd899",
+   "display_name": "ace-revenue-engine-ffd899#d3d30f01",
+   "model": "muse-spark",
+   "role": "revenue_exec",
+   "pubkey": "pk-bb26f3dea93c4d0088de9ff8577f273f",
+   "created": 1792363628.2218685,
+   "last_heartbeat": 1792363628.3061836,
+   "status": "active",
+   "computed_status": "active"
   }
  ]
 }
