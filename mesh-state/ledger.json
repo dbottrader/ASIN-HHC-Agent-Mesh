@@ -169,6 +169,226 @@
    "prev_hash": "8e5498c6ae3f496e29471da50dd925b78e21b97ffc93d7deed4e1d641d9438ea",
    "hash": "54825bd2adfc3a581d78313115ae06c2fe557a5a3b188f5aeb4f9ae4a64ee8d1",
    "canon": "v1"
+  },
+  {
+   "seq": 18,
+   "ts": 1792308538.12074,
+   "actor": "agent_e7e32c7d1ceb",
+   "kind": "agent_register_pending",
+   "payload": "{\"name\": \"gpu-node-proto-308538\"}",
+   "prev_hash": "54825bd2adfc3a581d78313115ae06c2fe557a5a3b188f5aeb4f9ae4a64ee8d1",
+   "hash": "a8be07cbe9188b9ef942b5371941024d8629f5a3cd798c3642cc5b74bff08c33",
+   "canon": "v1"
+  },
+  {
+   "seq": 19,
+   "ts": 1792308538.1800947,
+   "actor": "agent_e7e32c7d1ceb",
+   "kind": "agent_registered",
+   "payload": "{\"display_name\": \"gpu-node-proto-308538#486eeb29\"}",
+   "prev_hash": "a8be07cbe9188b9ef942b5371941024d8629f5a3cd798c3642cc5b74bff08c33",
+   "hash": "95297bd95b73bda5f93bbf3c80ca84ebbd111c7383b3d76dbf372fbe616b8f01",
+   "canon": "v1"
+  },
+  {
+   "seq": 20,
+   "ts": 1792308538.2771423,
+   "actor": "agent_e7e32c7d1ceb",
+   "kind": "gpu_node_capability",
+   "payload": "{\"compute\": {\"cpu\": \"x86_64 (stand-in)\", \"gpu_model\": \"NONE - this VM has no GPU (HOLD)\", \"runtime\": \"proto-deterministic-v1\", \"supported_kinds\": [\"inference_batch\"], \"vram_gb\": 0}, \"max_cost_units_per_task\": 10, \"node\": \"agent_e7e32c7d1ceb\", \"note\": \"PROTO-TEST capability manifest. Real GPU attestation, calibration tasks and normalization factors are HOLD.\", \"schema\": \"cp8.node.capability.v0\"}",
+   "prev_hash": "95297bd95b73bda5f93bbf3c80ca84ebbd111c7383b3d76dbf372fbe616b8f01",
+   "hash": "454c05fe79f2736641a9f0e6eccf0024d46c0340213bcafb09d326625b16921d",
+   "canon": "v1"
+  },
+  {
+   "seq": 21,
+   "ts": 1792308538.4878852,
+   "actor": "agent_e7e32c7d1ceb",
+   "kind": "work_publish",
+   "payload": "{\"kind\": \"task\", \"work_id\": \"work_8ee7f2200f95\"}",
+   "prev_hash": "454c05fe79f2736641a9f0e6eccf0024d46c0340213bcafb09d326625b16921d",
+   "hash": "76a0380cbf37e1026ab437a6d1653ec49fd9209c74f04793dad4c5c45f5a69e3",
+   "canon": "v1"
+  },
+  {
+   "seq": 22,
+   "ts": 1792308538.638129,
+   "actor": "agent_e7e32c7d1ceb",
+   "kind": "work_claim",
+   "payload": "{\"expires\": 1792394938.6372397, \"work_id\": \"work_8ee7f2200f95\"}",
+   "prev_hash": "76a0380cbf37e1026ab437a6d1653ec49fd9209c74f04793dad4c5c45f5a69e3",
+   "hash": "ea3b7ff09d530caa146aa369487eddf5db14db2b67c061352e70f66dd8f6024e",
+   "canon": "v1"
+  },
+  {
+   "seq": 23,
+   "ts": 1792308538.8134875,
+   "actor": "agent_42099fb420d8",
+   "kind": "agent_register_pending",
+   "payload": "{\"name\": \"gpu-verifier-proto-308538\"}",
+   "prev_hash": "ea3b7ff09d530caa146aa369487eddf5db14db2b67c061352e70f66dd8f6024e",
+   "hash": "7d3b4b3f617306f5365f1c556510c813eb6fbdab185f883ae572c3b5aefb1824",
+   "canon": "v1"
+  },
+  {
+   "seq": 24,
+   "ts": 1792308538.8658993,
+   "actor": "agent_42099fb420d8",
+   "kind": "agent_registered",
+   "payload": "{\"display_name\": \"gpu-verifier-proto-308538#2976a066\"}",
+   "prev_hash": "7d3b4b3f617306f5365f1c556510c813eb6fbdab185f883ae572c3b5aefb1824",
+   "hash": "8be8019aa6ceb0dcc43d0c4b14676651ffb980c54f20ed56dcbf175b5ff232c3",
+   "canon": "v1"
+  },
+  {
+   "seq": 25,
+   "ts": 1792308538.9671896,
+   "actor": "agent_42099fb420d8",
+   "kind": "powp_award",
+   "payload": "{\"amount\": 5.0, \"kind\": \"review_confirm\", \"receipt\": \"79caecdcd225d565c9335ed867e4d59250208adcdba539e54ca337a2d004fe72\", \"work_id\": \"work_8ee7f2200f95\"}",
+   "prev_hash": "8be8019aa6ceb0dcc43d0c4b14676651ffb980c54f20ed56dcbf175b5ff232c3",
+   "hash": "341bb8184b71470c8b1ca5ed754de5b835956fdad8e3e5ae77b2bf82f116b52a",
+   "canon": "v1"
+  },
+  {
+   "seq": 26,
+   "ts": 1792308538.967674,
+   "actor": "agent_42099fb420d8",
+   "kind": "work_review",
+   "payload": "{\"receipt\": \"79caecdcd225d565c9335ed867e4d59250208adcdba539e54ca337a2d004fe72\", \"verdict\": \"confirm\", \"work_id\": \"work_8ee7f2200f95\"}",
+   "prev_hash": "341bb8184b71470c8b1ca5ed754de5b835956fdad8e3e5ae77b2bf82f116b52a",
+   "hash": "5ea5b618b8e4d38f43f71138ee01ad2a0c5bab20c2a98d237c6f4badd63e4532",
+   "canon": "v1"
+  },
+  {
+   "seq": 27,
+   "ts": 1792308539.0959926,
+   "actor": "agent_e7e32c7d1ceb",
+   "kind": "powp_award",
+   "payload": "{\"amount\": 10.0, \"kind\": \"complete\", \"receipt\": \"d2305251a0e3f21f2393cf3118817f08d4ce44e1c2f4802b19f68eb619f626c7\", \"work_id\": \"work_8ee7f2200f95\"}",
+   "prev_hash": "5ea5b618b8e4d38f43f71138ee01ad2a0c5bab20c2a98d237c6f4badd63e4532",
+   "hash": "011a4ba9cd1a060e19e4f2e584fea2213151bf824f10fe699170edaf4b0bdb04",
+   "canon": "v1"
+  },
+  {
+   "seq": 28,
+   "ts": 1792308539.0964642,
+   "actor": "agent_e7e32c7d1ceb",
+   "kind": "work_complete",
+   "payload": "{\"receipt\": \"d2305251a0e3f21f2393cf3118817f08d4ce44e1c2f4802b19f68eb619f626c7\", \"work_id\": \"work_8ee7f2200f95\"}",
+   "prev_hash": "011a4ba9cd1a060e19e4f2e584fea2213151bf824f10fe699170edaf4b0bdb04",
+   "hash": "23e3ef3488af68b09c3ad5be6acc0e9db12e648ca8965a33396a300c53646467",
+   "canon": "v1"
+  },
+  {
+   "seq": 29,
+   "ts": 1792308571.180239,
+   "actor": "agent_a06b694d91de",
+   "kind": "agent_register_pending",
+   "payload": "{\"name\": \"gpu-node-proto-308571\"}",
+   "prev_hash": "23e3ef3488af68b09c3ad5be6acc0e9db12e648ca8965a33396a300c53646467",
+   "hash": "282a9adc00ef0ae6ea30c9caa5a99f6b0bd37976dc10fbfbf492b4bf43f134aa",
+   "canon": "v1"
+  },
+  {
+   "seq": 30,
+   "ts": 1792308571.2377973,
+   "actor": "agent_a06b694d91de",
+   "kind": "agent_registered",
+   "payload": "{\"display_name\": \"gpu-node-proto-308571#71909e71\"}",
+   "prev_hash": "282a9adc00ef0ae6ea30c9caa5a99f6b0bd37976dc10fbfbf492b4bf43f134aa",
+   "hash": "df5467622566335b10cc5ab62445d1d8dc34f8fd1727e550501ea45a7c9eae0b",
+   "canon": "v1"
+  },
+  {
+   "seq": 31,
+   "ts": 1792308571.3469112,
+   "actor": "agent_a06b694d91de",
+   "kind": "gpu_node_capability",
+   "payload": "{\"compute\": {\"cpu\": \"x86_64 (stand-in)\", \"gpu_model\": \"NONE - this VM has no GPU (HOLD)\", \"runtime\": \"proto-deterministic-v1\", \"supported_kinds\": [\"inference_batch\"], \"vram_gb\": 0}, \"max_cost_units_per_task\": 10, \"node\": \"agent_a06b694d91de\", \"note\": \"PROTO-TEST capability manifest. Real GPU attestation, calibration tasks and normalization factors are HOLD.\", \"schema\": \"cp8.node.capability.v0\"}",
+   "prev_hash": "df5467622566335b10cc5ab62445d1d8dc34f8fd1727e550501ea45a7c9eae0b",
+   "hash": "3694120d0e595254d2d187beadf5fa9a37b0965c100033af1af23b538a9f2916",
+   "canon": "v1"
+  },
+  {
+   "seq": 32,
+   "ts": 1792308571.5606642,
+   "actor": "agent_a06b694d91de",
+   "kind": "work_publish",
+   "payload": "{\"kind\": \"task\", \"work_id\": \"work_f84a5f7e71fe\"}",
+   "prev_hash": "3694120d0e595254d2d187beadf5fa9a37b0965c100033af1af23b538a9f2916",
+   "hash": "77bf15708cf9a181398bd498084541db9c4308d8f08df04c76d6a8c864007776",
+   "canon": "v1"
+  },
+  {
+   "seq": 33,
+   "ts": 1792308571.7103038,
+   "actor": "agent_a06b694d91de",
+   "kind": "work_claim",
+   "payload": "{\"expires\": 1792394971.7095208, \"work_id\": \"work_f84a5f7e71fe\"}",
+   "prev_hash": "77bf15708cf9a181398bd498084541db9c4308d8f08df04c76d6a8c864007776",
+   "hash": "8dbcfdb4b4a3e2c9f7289f92bf4492dffe68e47769a3a019a08ab00f6cc77fef",
+   "canon": "v1"
+  },
+  {
+   "seq": 34,
+   "ts": 1792308571.8866742,
+   "actor": "agent_f18c7d98fca9",
+   "kind": "agent_register_pending",
+   "payload": "{\"name\": \"gpu-verifier-proto-308571\"}",
+   "prev_hash": "8dbcfdb4b4a3e2c9f7289f92bf4492dffe68e47769a3a019a08ab00f6cc77fef",
+   "hash": "9759f4900d2f93efd2138d0cedc26752426ad5610394d78e2740554bb3e73a48",
+   "canon": "v1"
+  },
+  {
+   "seq": 35,
+   "ts": 1792308571.941049,
+   "actor": "agent_f18c7d98fca9",
+   "kind": "agent_registered",
+   "payload": "{\"display_name\": \"gpu-verifier-proto-308571#42c283df\"}",
+   "prev_hash": "9759f4900d2f93efd2138d0cedc26752426ad5610394d78e2740554bb3e73a48",
+   "hash": "7d05324ee3aa33138551b97f62a6af3d90e4255aa195c825c7cb7b539a22b795",
+   "canon": "v1"
+  },
+  {
+   "seq": 36,
+   "ts": 1792308572.0848205,
+   "actor": "agent_f18c7d98fca9",
+   "kind": "powp_award",
+   "payload": "{\"amount\": 5.0, \"kind\": \"review_confirm\", \"receipt\": \"d136933d79b5f09b07d66892513c714303ef5c52d5dbe4dce152596bf874a18a\", \"work_id\": \"work_f84a5f7e71fe\"}",
+   "prev_hash": "7d05324ee3aa33138551b97f62a6af3d90e4255aa195c825c7cb7b539a22b795",
+   "hash": "bc0da08b1c8565450f5af2c140cf2d42c0e68b66fd8cae951d55b4997ba477f7",
+   "canon": "v1"
+  },
+  {
+   "seq": 37,
+   "ts": 1792308572.0850217,
+   "actor": "agent_f18c7d98fca9",
+   "kind": "work_review",
+   "payload": "{\"receipt\": \"d136933d79b5f09b07d66892513c714303ef5c52d5dbe4dce152596bf874a18a\", \"verdict\": \"confirm\", \"work_id\": \"work_f84a5f7e71fe\"}",
+   "prev_hash": "bc0da08b1c8565450f5af2c140cf2d42c0e68b66fd8cae951d55b4997ba477f7",
+   "hash": "205368f900ffd4afbd648a871874d932b3e765610c942ed66da5fbc4b99ec6c9",
+   "canon": "v1"
+  },
+  {
+   "seq": 38,
+   "ts": 1792308572.203926,
+   "actor": "agent_a06b694d91de",
+   "kind": "powp_award",
+   "payload": "{\"amount\": 10.0, \"kind\": \"complete\", \"receipt\": \"d8f5194fdf5530292a3b434d7d1dbe2e7b243b838f9ecba6ce348af2449f52e5\", \"work_id\": \"work_f84a5f7e71fe\"}",
+   "prev_hash": "205368f900ffd4afbd648a871874d932b3e765610c942ed66da5fbc4b99ec6c9",
+   "hash": "893a387f60c792222a6053b20a3ce01c11f706751f668af49afdf2c72ef7fc9f",
+   "canon": "v1"
+  },
+  {
+   "seq": 39,
+   "ts": 1792308572.2041862,
+   "actor": "agent_a06b694d91de",
+   "kind": "work_complete",
+   "payload": "{\"receipt\": \"d8f5194fdf5530292a3b434d7d1dbe2e7b243b838f9ecba6ce348af2449f52e5\", \"work_id\": \"work_f84a5f7e71fe\"}",
+   "prev_hash": "893a387f60c792222a6053b20a3ce01c11f706751f668af49afdf2c72ef7fc9f",
+   "hash": "157e491ba1427934389f06492b03f1b81cf8372a929ebc3fdbcd6e16ff5fab50",
+   "canon": "v1"
   }
  ],
  "canon": "v1"
