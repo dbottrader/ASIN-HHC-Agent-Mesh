@@ -469,6 +469,156 @@
    "prev_hash": "6993f2bbea4c6ab257691dbe894f7048f87f479b10d83b6b83e45e4100e08d30",
    "hash": "e6b0703230c054c7c16a99e2827a1a63d014ef1fbdccec458b45be6ac24612c6",
    "canon": "v1"
+  },
+  {
+   "seq": 48,
+   "ts": 1792363599.8541613,
+   "actor": "agent_3ba856271a38",
+   "kind": "agent_register_pending",
+   "payload": "{\"name\": \"ace-revenue-engine\"}",
+   "prev_hash": "e6b0703230c054c7c16a99e2827a1a63d014ef1fbdccec458b45be6ac24612c6",
+   "hash": "3326c851485d54357710e72f0dfe2c143b1dd16c5738122c36f6826af7c4a456",
+   "canon": "v1"
+  },
+  {
+   "seq": 49,
+   "ts": 1792363599.9058094,
+   "actor": "agent_3ba856271a38",
+   "kind": "agent_registered",
+   "payload": "{\"display_name\": \"ace-revenue-engine#6e13ebd5\"}",
+   "prev_hash": "3326c851485d54357710e72f0dfe2c143b1dd16c5738122c36f6826af7c4a456",
+   "hash": "32ffb69a738458fb280616bca5dc0b21fe79e4c4f9e5be994e4e99428464690a",
+   "canon": "v1"
+  },
+  {
+   "seq": 50,
+   "ts": 1792363600.0027285,
+   "actor": "agent_3ba856271a38",
+   "kind": "capability_manifest",
+   "payload": "{\"agent\": \"agent_3ba856271a38\", \"capabilities\": [\"paper_trader_exec\", \"chain_verify\", \"mesh_anchor\"], \"mode\": \"paper_only\", \"model\": \"muse-spark\", \"scope\": \"issue6-revenue-engine\"}",
+   "prev_hash": "32ffb69a738458fb280616bca5dc0b21fe79e4c4f9e5be994e4e99428464690a",
+   "hash": "4ece95169b670e2c5e5d85001cce9cf53073be9350b1b582ba9b7053ae142413",
+   "canon": "v1"
+  },
+  {
+   "seq": 51,
+   "ts": 1792363612.8833346,
+   "actor": "agent_168e7d4f7e5c",
+   "kind": "agent_register_pending",
+   "payload": "{\"name\": \"ace-revenue-engine-00b84c\"}",
+   "prev_hash": "4ece95169b670e2c5e5d85001cce9cf53073be9350b1b582ba9b7053ae142413",
+   "hash": "c89626551821be1cc3a1bc12be14164d2bdb094b24083e193c8342d3f288957f",
+   "canon": "v1"
+  },
+  {
+   "seq": 52,
+   "ts": 1792363612.9606404,
+   "actor": "agent_168e7d4f7e5c",
+   "kind": "agent_registered",
+   "payload": "{\"display_name\": \"ace-revenue-engine-00b84c#65f2eb97\"}",
+   "prev_hash": "c89626551821be1cc3a1bc12be14164d2bdb094b24083e193c8342d3f288957f",
+   "hash": "0e653928ce4b5b8dd11add353dea99738f3bd892f2ec51eea53f72c0edf20aa6",
+   "canon": "v1"
+  },
+  {
+   "seq": 53,
+   "ts": 1792363613.0848587,
+   "actor": "agent_168e7d4f7e5c",
+   "kind": "capability_manifest",
+   "payload": "{\"agent\": \"agent_168e7d4f7e5c\", \"capabilities\": [\"paper_trader_exec\", \"chain_verify\", \"mesh_anchor\"], \"mode\": \"paper_only\", \"model\": \"muse-spark\", \"scope\": \"issue6-revenue-engine\"}",
+   "prev_hash": "0e653928ce4b5b8dd11add353dea99738f3bd892f2ec51eea53f72c0edf20aa6",
+   "hash": "843b08eeb45e39779ba2d775866ee1a1f8f9c09dddaf60ef8333e1b6e402c47d",
+   "canon": "v1"
+  },
+  {
+   "seq": 54,
+   "ts": 1792363613.1796584,
+   "actor": "agent_168e7d4f7e5c",
+   "kind": "work_publish",
+   "payload": "{\"kind\": \"task\", \"work_id\": \"work_907ac6262949\"}",
+   "prev_hash": "843b08eeb45e39779ba2d775866ee1a1f8f9c09dddaf60ef8333e1b6e402c47d",
+   "hash": "b20d7ebc200d93676e52b789da1f00e458de5166966d04a51a4d9d0bc96243d9",
+   "canon": "v1"
+  },
+  {
+   "seq": 55,
+   "ts": 1792363613.3214793,
+   "actor": "agent_168e7d4f7e5c",
+   "kind": "work_claim",
+   "payload": "{\"expires\": 1792450013.320593, \"work_id\": \"work_907ac6262949\"}",
+   "prev_hash": "b20d7ebc200d93676e52b789da1f00e458de5166966d04a51a4d9d0bc96243d9",
+   "hash": "54d0591c60bfe05af1517df306abe13910fe7710a265002affe6039de6e866a8",
+   "canon": "v1"
+  },
+  {
+   "seq": 56,
+   "ts": 1792363628.2231236,
+   "actor": "agent_b58cbfdcb807",
+   "kind": "agent_register_pending",
+   "payload": "{\"name\": \"ace-revenue-engine-ffd899\"}",
+   "prev_hash": "54d0591c60bfe05af1517df306abe13910fe7710a265002affe6039de6e866a8",
+   "hash": "92dd8360d436eed5c61e90e87371097950e8455353f7a08aa0ec6296663a0d1d",
+   "canon": "v1"
+  },
+  {
+   "seq": 57,
+   "ts": 1792363628.307629,
+   "actor": "agent_b58cbfdcb807",
+   "kind": "agent_registered",
+   "payload": "{\"display_name\": \"ace-revenue-engine-ffd899#d3d30f01\"}",
+   "prev_hash": "92dd8360d436eed5c61e90e87371097950e8455353f7a08aa0ec6296663a0d1d",
+   "hash": "615f62890f4c6b6d1fa5d2037883230035365cc719ef5040b0d692dbbb50548b",
+   "canon": "v1"
+  },
+  {
+   "seq": 58,
+   "ts": 1792363628.4124587,
+   "actor": "agent_b58cbfdcb807",
+   "kind": "capability_manifest",
+   "payload": "{\"agent\": \"agent_b58cbfdcb807\", \"capabilities\": [\"paper_trader_exec\", \"chain_verify\", \"mesh_anchor\"], \"mode\": \"paper_only\", \"model\": \"muse-spark\", \"scope\": \"issue6-revenue-engine\"}",
+   "prev_hash": "615f62890f4c6b6d1fa5d2037883230035365cc719ef5040b0d692dbbb50548b",
+   "hash": "15696354a884ce74bc04d2dee92afe692679835a78e1d37ffdef03bb226de5f2",
+   "canon": "v1"
+  },
+  {
+   "seq": 59,
+   "ts": 1792363628.510006,
+   "actor": "agent_b58cbfdcb807",
+   "kind": "work_publish",
+   "payload": "{\"kind\": \"task\", \"work_id\": \"work_8d8a3d2198dc\"}",
+   "prev_hash": "15696354a884ce74bc04d2dee92afe692679835a78e1d37ffdef03bb226de5f2",
+   "hash": "82961919bacdcc0e48d1ebb02d386a9d39fa6b8d014f7b552b3cc6e6fa34994f",
+   "canon": "v1"
+  },
+  {
+   "seq": 60,
+   "ts": 1792363628.6540897,
+   "actor": "agent_b58cbfdcb807",
+   "kind": "work_claim",
+   "payload": "{\"expires\": 1792450028.6532853, \"work_id\": \"work_8d8a3d2198dc\"}",
+   "prev_hash": "82961919bacdcc0e48d1ebb02d386a9d39fa6b8d014f7b552b3cc6e6fa34994f",
+   "hash": "ae51d13b5856401a0fd654591d230e9b6ba1cbd0d385550f71dea19102614f83",
+   "canon": "v1"
+  },
+  {
+   "seq": 61,
+   "ts": 1792363628.7513669,
+   "actor": "agent_b58cbfdcb807",
+   "kind": "powp_award",
+   "payload": "{\"amount\": 10.0, \"kind\": \"complete\", \"receipt\": \"4c7af1df13a4a073fb266cfea34a8a3d1c5e0610f4a024c1f30fd40e1b6efd1f\", \"work_id\": \"work_8d8a3d2198dc\"}",
+   "prev_hash": "ae51d13b5856401a0fd654591d230e9b6ba1cbd0d385550f71dea19102614f83",
+   "hash": "5d1fedac6287658dc5a5ca51dd54dbc9f785230f7e4b5b62e179675aa2b99d91",
+   "canon": "v1"
+  },
+  {
+   "seq": 62,
+   "ts": 1792363628.7521727,
+   "actor": "agent_b58cbfdcb807",
+   "kind": "work_complete",
+   "payload": "{\"receipt\": \"4c7af1df13a4a073fb266cfea34a8a3d1c5e0610f4a024c1f30fd40e1b6efd1f\", \"work_id\": \"work_8d8a3d2198dc\"}",
+   "prev_hash": "5d1fedac6287658dc5a5ca51dd54dbc9f785230f7e4b5b62e179675aa2b99d91",
+   "hash": "bbe4467fef940f25f699f37b8a754464222c3f8c7059a32fec87b68650f3445e",
+   "canon": "v1"
   }
  ],
  "canon": "v1"
