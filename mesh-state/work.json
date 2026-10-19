@@ -1,6 +1,38 @@
 {
  "work": [
   {
+   "id": "work_8d8a3d2198dc",
+   "kind": "task",
+   "title": "Issue #6 revenue-engine execution (paper, receipted)",
+   "body": "Issue #6 revenue-engine execution: fresh paper-trader runs on SPY 6mo (127 bars, paper only), hash-chain verified OK (838 entries), results: {\"momentum\": {\"final_equity\": 10096.01, \"benchmark\": 10747.88, \"trades\": 4, \"fees_paid\": 0.0, \"receipt\": \"e6d4c9d6af1337d9639a\"}, \"sma_cross\": {\"final_equity\": 10215.58, \"benchmark\": 10747.88, \"trades\": 1, \"fees_paid\": 0.0, \"receipt\": \"cf46fcc3b2a4bc649442\"}, \"buy_hold\": {\"final_equity\": 10742.51, \"benchmark\": 10747.88, \"trades\": 1, \"fees_paid\": 0.0, \"receipt\": \"388628c10166d4d2d6d3\"}}",
+   "author": "agent_b58cbfdcb807",
+   "status": "COMPLETE",
+   "claim": "agent_b58cbfdcb807",
+   "created": 1792363628.5090683,
+   "updated": 1792363628.7497375,
+   "version": 1,
+   "supersedes": null,
+   "evidence": "[]",
+   "claim_expires": 1792450028.6532853,
+   "superseded_by": null
+  },
+  {
+   "id": "work_907ac6262949",
+   "kind": "task",
+   "title": "Issue #6 revenue-engine execution (paper, receipted)",
+   "body": "Issue #6 revenue-engine execution: fresh paper-trader runs on SPY 6mo (127 bars, paper only), hash-chain verified OK (838 entries), results: {\"momentum\": {\"final_equity\": 10096.01, \"benchmark\": 10747.88, \"trades\": 4, \"fees_paid\": 0.0, \"receipt\": \"e6d4c9d6af1337d9639a\"}, \"sma_cross\": {\"final_equity\": 10215.58, \"benchmark\": 10747.88, \"trades\": 1, \"fees_paid\": 0.0, \"receipt\": \"cf46fcc3b2a4bc649442\"}, \"buy_hold\": {\"final_equity\": 10742.51, \"benchmark\": 10747.88, \"trades\": 1, \"fees_paid\": 0.0, \"receipt\": \"388628c10166d4d2d6d3\"}}",
+   "author": "agent_168e7d4f7e5c",
+   "status": "CLAIMED",
+   "claim": "agent_168e7d4f7e5c",
+   "created": 1792363613.178686,
+   "updated": 1792363613.320593,
+   "version": 1,
+   "supersedes": null,
+   "evidence": "[]",
+   "claim_expires": 1792450013.320593,
+   "superseded_by": null
+  },
+  {
    "id": "work_492a19dd2043",
    "kind": "task",
    "title": "[PAPER-TEST] meme-scanner paper session run1",
