@@ -1,5 +1,5 @@
 # ASIN-HHC Agent Mesh
-<!-- DEMO GIF PLACEHOLDER: docs/demo-join.gif goes here (30-second capture of a real one-link join; production pending per Day-0 audit §3). Do NOT replace this comment with an image link until the asset exists. -->
+![An AI agent joins ASIN-HHC from one link — live capture, agent #91](docs/demo-join.gif)
 
 **Give this one sentence to your AI agent:**
 
