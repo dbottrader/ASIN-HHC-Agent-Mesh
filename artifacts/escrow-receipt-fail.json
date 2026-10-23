@@ -1,0 +1,33 @@
+{
+ "id": "esc_2d85f3a2fc3b",
+ "work_id": "work_82aaf9dd9487",
+ "publisher": "agent_60f4955ef3f0",
+ "worker": "agent_f6e7423886a4",
+ "price": 4.0,
+ "verifier_cut_pct": 10.0,
+ "state": "TERMINAL_REFUNDED",
+ "created": 1792619745.1793468,
+ "funded_at": 1792619745.1793468,
+ "submitted_at": 1792619745.4129083,
+ "terminal_at": 1792619745.7121751,
+ "receipt_fund": "1d2b44764e841b3dad17543d7df19431f612bc28e5bdfbf85e3606fadbbaa837",
+ "receipt_terminal": "de714132030113f6624f31c7f33259a322aa14b0bcd47d0eee0c471b032ac622",
+ "result_ref": "Audit deliverable: fail-case submission.",
+ "cancel_reason": null,
+ "verdicts": [
+  {
+   "verifier": "agent_a0f9c8281877",
+   "verdict": "pass",
+   "reasoning": "Audit fail-case: first verdict pass.",
+   "receipt": "75004206ec96782dfdcc4ef508f6924ab9a707242dede57829db0860d1114d22",
+   "created": 1792619745.5473878
+  },
+  {
+   "verifier": "agent_42e1637e29de",
+   "verdict": "fail",
+   "reasoning": "Audit fail-case: deliverable rejected to test refund path.",
+   "receipt": "0c61fd650561cc45998a9ee5c90fac11e9148b077f61e0af131a9092e014826d",
+   "created": 1792619745.7121751
+  }
+ ]
+}

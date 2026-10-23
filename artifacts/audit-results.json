@@ -1,0 +1,99 @@
+{
+ "height_before": 88,
+ "tip_before": "6262b288aedad17a4107cb6586ed6a71df4d535fc433280d3f657bd7c2aa06a6",
+ "mesh_work_id": "work_29e847a09482",
+ "mesh_complete": {
+  "ok": true,
+  "receipt": "7be33c1bae5d60d06ae2bd4ea338494191e98c15efb8d52d55a55fab08ce509d",
+  "ledger": "2e84cde3916dc598f59137518ac14297352450b1b98a711037add76806905d42"
+ },
+ "mesh_review_after_complete": {
+  "http": 422,
+  "resp": {
+   "error": {
+    "code": "REVIEW_NOT_ALLOWED",
+    "message": "work is terminal (COMPLETE)",
+    "retryable": false,
+    "trace_id": "3b5177382e80",
+    "errors_version": "err-v1"
+   }
+  }
+ },
+ "mesh_review_while_claimed": {
+  "http": 200,
+  "resp": {
+   "ok": true,
+   "review_id": "rev_5a16e4d199ae",
+   "receipt": "5365f7fd04c9ecf89e246087a941ae75338446868c91754b7a48f5040d7c27d8",
+   "ledger": "1a30060897a4553878741a5a2062f0556b8ef2d77add3e9a2c219645ac3fa44c"
+  },
+  "work_id": "work_4b6e584c8b17"
+ },
+ "mint": {
+  "ok": true,
+  "agent": "agent_60f4955ef3f0",
+  "amount": 20.0,
+  "receipt": "0c25711fd885609500de63223d4493f1adecebbb44ad01b0cf66797d0811227b",
+  "ledger": "101225a14a75a26994f3a30e2b4b721fa35f4a4d1e21d4aa78e7365d71ec2cc1"
+ },
+ "escrow_pass": {
+  "escrow_id": "esc_d9090c9d0843",
+  "work_id": "work_3be74eb432d8",
+  "publish": {
+   "work_id": "work_3be74eb432d8",
+   "escrow_id": "esc_d9090c9d0843",
+   "state": "FUNDED",
+   "receipt": "5eda952ca161d68cd2f8c91d4126210efa93fc9dc7bbdc98344d8d80ae40ba59",
+   "ledger": "b99db94417cee1385b702fed61863618a8040c7fdb4e5ddf7089bd07cdd915a1"
+  },
+  "verdict2": {
+   "ok": true,
+   "escrow_id": "esc_d9090c9d0843",
+   "state": "TERMINAL_PAID",
+   "receipt": "c128a1c82700a8e4a69c1166880f6a8de3108a83f0a7c4f475f25ffe56f29ba6",
+   "terminal": {
+    "outcome": "paid",
+    "ledger": "47e034022208026a86dd13799e8b92494159b387cae67714123bf4d3bad59f6c"
+   }
+  }
+ },
+ "escrow_fail": {
+  "escrow_id": "esc_2d85f3a2fc3b",
+  "work_id": "work_82aaf9dd9487",
+  "publish": {
+   "work_id": "work_82aaf9dd9487",
+   "escrow_id": "esc_2d85f3a2fc3b",
+   "state": "FUNDED",
+   "receipt": "1d2b44764e841b3dad17543d7df19431f612bc28e5bdfbf85e3606fadbbaa837",
+   "ledger": "dc376d8b1cbe060c3fc926e9512923b8d0bf6d66d16fd18468112a3f5202c5ab"
+  },
+  "verdict2": {
+   "ok": true,
+   "escrow_id": "esc_2d85f3a2fc3b",
+   "state": "TERMINAL_REFUNDED",
+   "receipt": "0c61fd650561cc45998a9ee5c90fac11e9148b077f61e0af131a9092e014826d",
+   "terminal": {
+    "outcome": "refunded",
+    "ledger": "9e4f22cf98e7dad7d0a02f2410b2ae8b508d44edfb2bc4eb6c960f39f75ed7c3"
+   }
+  }
+ },
+ "verify_files": {
+  "entries": 123,
+  "v1_ok": 108,
+  "v1_total": 108,
+  "pre_v1": 15,
+  "link_ok": 123,
+  "vectors_ok": 4,
+  "vectors_total": 4,
+  "new_ok": 35,
+  "new_total": 35
+ },
+ "height_after": 123,
+ "agents_map": {
+  "audit-publisher": "agent_60f4955ef3f0",
+  "audit-worker": "agent_f6e7423886a4",
+  "audit-verifier": "agent_a0f9c8281877",
+  "audit-verifier2": "agent_42e1637e29de"
+ }
+}

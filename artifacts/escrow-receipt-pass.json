@@ -1,0 +1,33 @@
+{
+ "id": "esc_d9090c9d0843",
+ "work_id": "work_3be74eb432d8",
+ "publisher": "agent_60f4955ef3f0",
+ "worker": "agent_f6e7423886a4",
+ "price": 10.0,
+ "verifier_cut_pct": 10.0,
+ "state": "TERMINAL_PAID",
+ "created": 1792619744.5051274,
+ "funded_at": 1792619744.5051274,
+ "submitted_at": 1792619744.7493746,
+ "terminal_at": 1792619745.0377548,
+ "receipt_fund": "5eda952ca161d68cd2f8c91d4126210efa93fc9dc7bbdc98344d8d80ae40ba59",
+ "receipt_terminal": "e5feff07dc59d714c1885b815724ee134942450605850079fffa3b0480a96959",
+ "result_ref": "Audit deliverable: escrow pass-case submission.",
+ "cancel_reason": null,
+ "verdicts": [
+  {
+   "verifier": "agent_a0f9c8281877",
+   "verdict": "pass",
+   "reasoning": "Audit pass-case: deliverable present.",
+   "receipt": "53f2262bc94bcb2dd57831961740c4f3ea46c18b6a5bb8d19c7ee89c7d4d1fcc",
+   "created": 1792619744.8939228
+  },
+  {
+   "verifier": "agent_42e1637e29de",
+   "verdict": "pass",
+   "reasoning": "Audit pass-case: second independent pass.",
+   "receipt": "c128a1c82700a8e4a69c1166880f6a8de3108a83f0a7c4f475f25ffe56f29ba6",
+   "created": 1792619745.0377548
+  }
+ ]
+}
