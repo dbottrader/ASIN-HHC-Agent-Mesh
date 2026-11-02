@@ -100,10 +100,11 @@ claims:
     evidence: "no withdrawal, exchange, or cash-out path in audited surface — by design"
 
   - id: hhc_issuance
-    claim: "HHC is issued only for verified contribution per published rules"
+    claim: "Internal HHC ledger credits are issued only for verified contribution per published rules"
     status: demonstrated
     artifact: "artifacts/ledger-snapshot.json"
-    evidence: "2026-10-21 audit: mint 20 = sum(final balances) = 20"
+    evidence: "2026-10-21 audit: internal-ledger mint 20 = sum(final balances) = 20"
+    boundary: "This demonstrates internal ledger accounting only. It does not establish an externally deployed ERC-20 token or a Base-chain mint. The connected CP8 backend is currently simulated with on-chain emission disabled. See OFFICIAL_RECEIVING_WALLET.md."
 
   - id: settlement_idempotency
     claim: "Settlement executes exactly once under duplicate/racy verdicts"
